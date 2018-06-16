@@ -1,6 +1,6 @@
 -module(http_handler).
 -export([init/3, handle/2, terminate/3, doit/2]).
-%example: `curl -i -d '["test"]' http://localhost:80`
+%example: `curl -i -d '["test"]' http://localhost:8087`
 
 -include("records.hrl").
 init(_Type, Req, _Opts) -> {ok, Req, no_state}.
